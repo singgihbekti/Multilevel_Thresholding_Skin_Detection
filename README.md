@@ -6,13 +6,13 @@ The equation used to convert the pixel value of the grayscale image into binary 
 ![alt text](pictures/01.equation.jpg)
 
 Where: 
-f(x,y) is a grayscale image 
-g(x,y) is a binary image 
-T1 is the lower threshold value 
-T2 is the upper threshold value
+- f(x,y) is a grayscale image 
+- g(x,y) is a binary image 
+- T1 is the lower threshold value 
+- T2 is the upper threshold value
 
 An illustration of the change in pixel values ​​in the multi-level thresholding process is shown in the image below:
-![alt text](pictures/02.pixel.jpg)
+![alt text](pictures/02.pixel.PNG)
 
 The following is an example of a digital image processing application along with MATLAB programming to segment skin color using the multi-level thresholding method. 
 The steps are as follows:
@@ -126,7 +126,7 @@ figure, imshow(bin);
 ```
 Eliminated noise
 
-![alt text](pictures/8.eliminate noise.PNG)
+![alt text](pictures/8.eliminate-noise.PNG)
 ## 7. Visualize the result of segmentation on RBG image
 Visualize the result of the skin segmentation on RBG image
 ```
@@ -139,7 +139,7 @@ figure, imshow(out);
 ```
 The result of segmentation
 
-![alt text](pictures/9. segmentation.PNG)
+![alt text](pictures/9.segmentation.PNG)
 ## 8. Visualize the results with bounding box
 Visualize the results of skin segmentation in the form of a bounding box
 ```
@@ -151,7 +151,7 @@ figure, imshow(RGB);
 ```
 The result with bounding box
 
-![alt text](pictures/10.bounding box.PNG)
+![alt text](pictures/10.bounding-box.PNG)
 
 ## Reference and 
 See the video on my youtube channel:
